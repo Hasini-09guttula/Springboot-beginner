@@ -12,6 +12,8 @@ public class UserService {
 
     public UserService() {
         allUsers = new ArrayList<>(); // Empty Array List
+        allUsers.add(new User("Hasini", "Female", "jane.png", 1));
+    allUsers.add(new User("John Doe", "Male", "john.png", 2));
     }
 
     // Name is of our choice
