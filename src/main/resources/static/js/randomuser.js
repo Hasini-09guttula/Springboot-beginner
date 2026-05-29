@@ -8,7 +8,7 @@ function displayUser(user){
 }
 
 function getAndDisplayNextRandomUser(){
-    fetch("https://randomuser.me/api/")
+    fetch('/api/users')
     .then(function(res){
         return res.json();
     })
